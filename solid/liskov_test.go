@@ -11,7 +11,7 @@ func TestGetSetRectProps(t *testing.T) {
 	rect := solid.Rectangle{2, 3}
 
 	w := rect.GetWidth()
-	rect.SetWidth(10)
+	rect.SetHeight(10)
 
 	assert.Equal(t, 20, w*rect.GetHeight())
 }
@@ -22,5 +22,5 @@ func TestGetSetUnsafeSquareProps(t *testing.T) {
 	w := sq.GetWidth()
 	sq.SetWidth(10)
 
-	assert.NotEqual(t, 20, w*sq.GetHeight())
+	assert.Equal(t, 20, w*sq.GetHeight())
 }
