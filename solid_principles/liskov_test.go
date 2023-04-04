@@ -3,7 +3,7 @@ package solid_test
 import (
 	"testing"
 
-	"github.com/danitrod/go-design-patterns/solid"
+	solid "github.com/danitrod/go-design-patterns/solid_principles"
 	"github.com/stretchr/testify/assert"
 )
 
